@@ -12,7 +12,7 @@
 - **Використані навички:** Просунуті `Window Functions` (COUNT, MIN, MAX OVER PARTITION BY), `Subqueries`, робота з датами (`DATE_TRUNC`, `DATE_ADD`).
 - **Файл:** [monthly_email_activity.sql](monthly_email_activity.sql)
 
-### [3. Revenue by Device and Continent with Session](revenue_by_device_and_continent_with_session.sql)
+### [3. Revenue by Device and Continent with Sessions](revenue_by_device_and_continent_with_sessions.sql)
 - **Опис:** Створення зведеної вітрини даних для аналізу доходів. Скрипт агрегує продажі за континентами та типами пристроїв, обчислює частку доходу кожного регіону, а також підраховує кількість сесій та верифікованих акаунтів.
 - **Використані навички:** `Conditional Aggregation` (CASE WHEN всередині SUM/COUNT), `CTEs`, `Window Functions` (OVER), багаторазові `JOIN`.
-- **Файл:** [revenue_by_device_and_continent.sql](revenue_by_device_and_continent_with_session.sql)
+- **Файл:** [revenue_by_device_and_continent.sql](revenue_by_device_and_continent_with_sessions.sql)
